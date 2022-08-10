@@ -4,14 +4,9 @@ public class Circle {
 
      Circle(){
      }
-     Circle(double radius){
+     Circle(double radius, String color){
          this.radius = radius;
-         this.color= "red";
-     }
-
-     public  double setRadius(double radius){
-         this.radius = radius;
-         return radius;
+         this.color= color;
      }
 
     public double getRadius() {
